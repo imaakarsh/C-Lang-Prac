@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    int a = 10 , b;
+    printf("Enter a value for b: ");
+    scanf("%d", &b);  
+    printf("Hello, World!\n");
+    printf("Value of a is %d\n", a);
+    printf("Value of b is %d\n", b);
+    return 0;
+}
