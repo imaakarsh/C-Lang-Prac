@@ -1,13 +1,21 @@
 #include<stdio.h>
-void printhello();
-int main(){
-    printhello();
-    printhello();
+void namaste();
+void bonjure();
+int main (){
+    printf("Enter f for french & i for indian");
+    char ch;
+    scanf("%c",&ch);
+    if(ch =='i'){
+    namaste();}
+    else{
+ bonjure();}
     return 0;
 }
 
-void printhello(){
-    printf("Hello world \n");
+void namaste(){
+    printf("Usser is indian\n");
 }
 
-
+void bonjure(){
+    printf("Usser is French\n");
+}
