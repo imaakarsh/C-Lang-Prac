@@ -8,7 +8,7 @@ int main (){
     if(ch =='i'){
     namaste();}
     else{
- bonjure();}
+    bonjure();}
     return 0;
 }
 
