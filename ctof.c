@@ -10,4 +10,4 @@ int main(){
 
 int clac(int science, int maths){
     return((science+maths)/2)*100;
-}
+} 
