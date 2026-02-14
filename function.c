@@ -2,11 +2,12 @@
 void printhello();
 int main(){
     printhello();
+    printhello();
     return 0;
 }
 
 void printhello(){
-    printf("Hello world");
+    printf("Hello world \n");
 }
 
 
