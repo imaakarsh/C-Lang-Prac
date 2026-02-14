@@ -1,8 +1,12 @@
 #include<stdio.h>
-void printhello()
+void printhello();
 int main(){
     printhello();
     return 0;
+}
+
+void printhello(){
+    printf("Hello world");
 }
 
 
