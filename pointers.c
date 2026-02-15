@@ -4,7 +4,8 @@ int main(){
     int age = 23;
     int *ptr = &age;
     
-    
-    printf("%p",&age);
+    // value
+    printf("%d\n",age);
+    printf("%d\n",*ptr);
     return 0;
 }
