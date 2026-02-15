@@ -1,13 +1,11 @@
 #include<stdio.h>
 int main(){
-    int x;
-    int *ptr;
+    int i=5;
+    int *ptr = &i;
+    int **pptr=&ptr;
 
-    ptr = &x;
-    *ptr = 0;
 
-    printf("%d\n",x);
-    printf("%d\n",*ptr);
+    printf("%d\n",**pptr);
 
     return 0;
 }
