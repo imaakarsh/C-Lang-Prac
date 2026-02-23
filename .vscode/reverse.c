@@ -1,18 +1,18 @@
 #include<stdio.h>
 #include<string.h>
     void main(){
-    char str[100],temp;
+    char str[100], temp;
     int i=0,j=0;
-    printf("Enter the String: ");
+    printf("Enter the String : ");
     gets(str);
-    j=strlen(str)-1;
+    j=strlen(str);
     while(i<j){
         temp = str[i];
         str[i]=str[j];
-        str[j]=temp;
+        str[i]=temp;
         i++;
         j--;
     }
-    printf("reverse: ");
+    printf("reverse");
     puts(str);
-}
+    }
