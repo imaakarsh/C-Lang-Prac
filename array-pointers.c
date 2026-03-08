@@ -4,6 +4,6 @@ int main(){
     int *ptr = &age;
     printf("ptr = %u",ptr);
     ptr++;
-    printf("ptr = %u",ptr);
+    printf("ptr = %u" ,ptr);
     return 0;
 }
