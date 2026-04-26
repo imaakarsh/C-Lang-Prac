@@ -1,12 +1,25 @@
-#include <stdio.h>
-int main(){
-    int marks[3];
-    printf("Enter the marks of phy: ");
-    scanf("%d",&marks[0]);
-    printf("Enter the marks of chem: ");
-    scanf("%d",&marks[1]);
 
-    printf("Phy = %d, Chem = %d",marks[0],marks[1]);
-    return 0;
-    
+#include<stdio.h>
+int main()
+{
+    int matrix[3][3];
+int i,j;
+printf('\nEnter the elements');
+for(i=0;i<3;i++)
+{
+for(j=0;j<3;j++)
+{
+scanf("%d", &matrix[i][j]);
+}
+}
+printf('\nThe elements of the matrix are:\n');
+for(i=0;i<3;i++)
+{
+for(j=0;j<3;j++)
+{
+printf("%2d", matrix[i][j]);
+}
+
+}
+return 0;
 }
